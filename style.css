@@ -1,34 +1,27 @@
 * {
-    font-family: Helvetica;
+  width: 400px;
+  margin: auto;
+  background-color:moccasin;
 }
 
 h1 {
-  font-size: 100px;
-  font-weight: bold;
-  color: khaki;
-  text-align:center;
-  background-image: url(pattern.jpeg)
+    font-size: 40px;
 }
 
-h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: White;
+h1, h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:slategrey;
 }
 
-#brushes {
-    background-color: mediumspringgreen;
+p, ul {
+    color:lightslategrey;
 }
 
-#frames {
-    background-color: lightcoral;
+div {
+    border-color: black;
+    padding: 10px; 
 }
 
-#paint {
-    background-color: skyblue;
-}
-
-a {
-    font-weight: bold;
-    color: blue;
+#JJ, #CO {
+    border-color: white;
 }
