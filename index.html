@@ -1,26 +1,148 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
-    <title>Mitchel Wachtel</title>
+    <title>MW.me</title>
   </head>
   <body>
-    <h1>Mitchel Wachtel</h1>
-    <br />
-    <ul>
-      <li><a href="https://www.mitchelwachtel.me/portfolio" target="_blank">Portfolio</a></li>
-      <li><a href="https://www.youtube.com/docwach" target="_blank">Youtube</a></li>
-      <li><a href="https://www.instagram.com/_docwach/" target="_blank">Instagram</a></li>
-      <li>
-        <a
-          href="https://docs.google.com/document/d/1DpnudGN5NjNlIpKcAYlks0VulKKWYkldocFCiUZCXyo/edit?usp=sharing"
-          target="_blank">Resume</a
-        >
-      </li>
-      <li><a href="https://www.linkedin.com/in/mitchelwachtel" target="_blank">LinkedIn</a></li>
-      <li><a href="https://www.facebook.com/mitchel.wachtel" target="_blank">Facebook</a></li>
-      <li><a href="https://www.github.com/mitchelwachtel" target="_blank">GitHub</a></li>
-      <li><a href="./page2.html" target="_blank">Random</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="https://www.mitchelwachtel.me">
+        <img
+          src=" "
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        Mitchel Wachtel
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.mitchelwachtel.me/portfolio"
+              target="_blank"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#youtube" target="_blank">YouTube</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Social Media
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a
+                class="dropdown-item"
+                href="https://www.instagram.com/_docwach/"
+                target="_blank"
+                >Instagram</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.facebook.com/mitchel.wachtel"
+                target="_blank"
+                >Facebook</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/docwach"
+                target="_blank"
+                >Youtube</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Professional Links
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a
+                class="dropdown-item"
+                href="https://www.linkedin.com/in/mitchelwachtel"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.github.com/mitchelwachtel"
+                target="_blank"
+                >Github</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://docs.google.com/document/d/1DpnudGN5NjNlIpKcAYlks0VulKKWYkldocFCiUZCXyo/edit?usp=sharing"
+                target="_blank"
+                >Resume</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.mitchelwachtel.me/portfolio"
+                target="_blank"
+                >Portfolio</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Bootstrap Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">It looks like you found me</h1>
+        <p class="lead">Now, what are you looking for?</p>
+      </div>
+    </div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
