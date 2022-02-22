@@ -1,0 +1,28 @@
+.container-fluid img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+
+/* TODO: colors */
+
+
+
+
+/* TODO: media queries. I don't like how the jumbotron text wraps */
